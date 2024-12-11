@@ -15,7 +15,7 @@ public class shoesPriceTest {
         homePage homePage = new homePage(driver);
         homePage.closeLocationChoice ();
         homePage.hoverOverMenLink();
-        homePage.chooseCategory();
+        homePage.chooseCategory  ();
 
         shoesPage shoesPage = new shoesPage(driver);
         List<Float> priceList = shoesPage.getPrice();
